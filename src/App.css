@@ -1,0 +1,73 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.planet-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.pagination button.active {
+  background-color: #0056b3;
+}
+
+table, th, td{
+  border: 2px solid;
+  width:  98%;
+  text-align: center;
+  margin-top: 1rem;
+  border-collapse: collapse;
+
+}
+
+.planet-card {
+  margin: 10px;
+  padding: 2rem;
+  border: 2px solid brown;
+  border-radius: 1rem;
+  width: 40%;
+  text-align: left;
+}
+
+.resident-container {
+  margin-top: 10px;
+}
+
+tr:hover {background-color: pink; color: black;}
+
+button {
+  margin-top: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .planet-card {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
+@media screen and (max-width: 856px) {
+  .planet-card {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+}
